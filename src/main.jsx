@@ -1,4 +1,5 @@
 import React from "react";
+import { Buffer } from 'buffer';
 import ReactDOM from 'react-dom/client'
 import {BrowserRouter as Router} from 'react-router-dom'
 import App from './App'
@@ -6,6 +7,7 @@ import { PrivyProvider } from "@privy-io/react-auth";
 import './index.css'
 import { StateContextProvider } from "./Context/Index";
 const root=ReactDOM.createRoot(document.getElementById('root'))
+window.Buffer=Buffer
 root.render(
     
     <PrivyProvider

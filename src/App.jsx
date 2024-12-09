@@ -20,7 +20,7 @@ const App=()=>{
         }else if(user && !currentUser){
             navigate('/onboarding')
         }
-    },[ready,currentUser,navigate])
+    },[ready,currentUser])
     return (
         <div className='relative flex min-h-screen flex-row bg-[#13131a] p-4'>
             <div className='relative mr-10 hidden sm:flex'>

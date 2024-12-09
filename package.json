@@ -21,6 +21,7 @@
     "@thirdweb-dev/react": "^3",
     "@thirdweb-dev/sdk": "^3",
     "appwrite": "14.0.1",
+    "buffer": "^6.0.3",
     "client": "file:",
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.32.1",
