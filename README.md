@@ -1,42 +1,62 @@
-<div style="text-align: center; font-family: Arial, sans-serif; background: linear-gradient(135deg, #f7f7f7, #e6e6e6); padding: 20px; border-radius: 12px; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);">
-  <a href="https://www.imghippo.com/i/ZK4zy1722288141.jpg" title="Project Screenshot" target="_blank" style="text-decoration: none;">
-    <img 
-      src="https://i.imghippo.com/files/ZK4zy1722288141.jpg" 
-      style="width: 95%; border-radius: 10px; margin-bottom: 20px; transition: transform 0.3s ease, box-shadow 0.3s ease;" 
-      alt="Project Screenshot"
-      onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 10px 20px rgba(0, 0, 0, 0.3)';" 
-      onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 15px rgba(0, 0, 0, 0.2)';" 
-    />
+<div align="center">
+  <br />
+  <a href="https://www.imghippo.com/i/ZK4zy1722288141.jpg" title="Project Screenshot" target="_blank">
+    <img src="https://i.imghippo.com/files/ZK4zy1722288141.jpg" width="90%" alt="Project Screenshot" />
   </a>
-  <div style="margin: 10px auto; display: inline-block;">
-    <img src="https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logoColor=white&logo=javascript&color=F7DF1E" alt="javascript" style="margin-right: 8px;" />
-    <img src="https://img.shields.io/badge/-Gemini AI-black?style=for-the-badge&logoColor=white&logo=gemini&color=412991" alt="gemini ai" />
+  <br />
+  <div>
+    <img src="https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logoColor=white&logo=javascript&color=F7DF1E" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/-Gemini AI-black?style=for-the-badge&logoColor=white&logo=gemini&color=412991" alt="Gemini AI" />
   </div>
-  <h3 style="color: #333; font-size: 1.8rem; margin-top: 20px; font-weight: bold;">
-    AI Cancer Care <br /> <span style="color: #555; font-size: 1.2rem;">(BeatCancer: AI Assistant to Craft Personalized Cancer Care)</span>
-  </h3>
-  <p style="font-size: 1rem; line-height: 1.6; color: #555; max-width: 800px; margin: 20px auto;">
+  <h1 align="center">🌟 AI Cancer Care 🌟</h1>
+  <h3 align="center">BeatCancer: AI Assistant to Craft Personalized Cancer Care</h3>
+  <p align="center">
     Welcome to the AI Cancer Care project, a revolutionary AI assistant designed to provide personalized cancer care by analyzing patient data, guidelines, and medical records. Our goal is to identify screening gaps and create tailored treatment plans to improve patient outcomes.
   </p>
 </div>
 
-<!-- Table of Contents -->
-<h2 style="color: #333; font-weight: bold; font-size: 1.6rem; margin-top: 30px;">📋 Table of Contents</h2>
-<ol style="font-size: 1rem; color: #555; line-height: 1.8; padding: 0 20px;">
-  <li>🤖 <a href="#introduction" style="text-decoration: none; color: #007bff;">Introduction</a></li>
-  <li>🔋 <a href="#features" style="text-decoration: none; color: #007bff;">Features</a></li>
-  <li>🏆 <a href="#inspiration" style="text-decoration: none; color: #007bff;">Inspiration</a></li>
-  <li>⚙️ <a href="#setup-and-deployment" style="text-decoration: none; color: #007bff;">Setup and Deployment</a></li>
-  <li>🚀 <a href="#usage" style="text-decoration: none; color: #007bff;">Usage</a></li>
-  <li>🌠 <a href="#gemini-ai-integration" style="text-decoration: none; color: #007bff;">Gemini AI Integration</a></li>
-  <li>🤝 <a href="#contributing" style="text-decoration: none; color: #007bff;">Contributing</a></li>
-  <li>📜 <a href="#license" style="text-decoration: none; color: #007bff;">License</a></li>
-</ol>
+---
 
-<!-- Optional script for interactivity -->
-<script>
-  document.querySelectorAll('a').forEach(link => {
-    link.addEventListener('mouseover', () => link.style.color = '#0056b3');
-    link.addEventListener('mouseout', () => link.style.color = '#007bff');
-  });
-</script>
+## 📋 Table of Contents
+
+1. 🤖 [Introduction](#introduction)
+2. 🔋 [Features](#features)
+3. 🏆 [Inspiration](#inspiration)
+4. ⚙️ [Setup and Deployment](#setup-and-deployment)
+5. 🚀 [Usage](#usage)
+6. 🌠 [Gemini AI Integration](#gemini-ai-integration)
+7. 🤝 [Contributing](#contributing)
+8. 📜 [License](#license)
+
+---
+
+## 🤖 Introduction
+
+AI Cancer Care provides an easy and efficient way to craft personalized cancer care using AI. It interacts with Gemini AI to analyze and generate detailed treatment plans based on patient data and medical records.
+
+---
+
+## 🔋 Features
+
+- **🎯 Personalized Treatment Plans**: Analyzes patient data, medical records, and guidelines to identify gaps in cancer screening and follow-up care, crafting tailored treatment plans for individual patients.
+- **🔒 Secure Data Sharing**: Protects sensitive data with encryption, ensuring secure access for healthcare providers.
+
+---
+
+## 🏆 Inspiration
+
+This project is deeply personal to me. My grandmother’s battle with cancer inspired me to create a solution that simplifies care coordination and treatment tracking for patients and families.
+
+---
+
+## ⚙️ Setup and Deployment
+
+### Prerequisites
+- Node.js and npm installed.
+
+### Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/mendsalbert/beat-cancer.git
+   cd beat-cancer
